@@ -80,12 +80,9 @@ public class Todo {
 
     @Override
     public String toString() {
-        return "_id='" + _id +
-                ", description='" + description +
-                ", dueDate=" + dueDate +
-                ", status=" + status +
-                ", owner='" + owner +
-                ", priority=" + priority;
+        return  owner + " need to "  + description +
+                " by " + dueDate +
+                ", current status is " + status +
+                ". priority: " + priority + "\n";
     }
 }
-
